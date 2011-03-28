@@ -1,0 +1,7 @@
+Simpler than commons-logging or slf4j.
+
+Wraps java.util.logging.Logger in org.apache.commons.logging.Logger.
+
+This allows you to write logging code using log4j and switch to
+java.util.logging if you ever need to - probably never.
+
